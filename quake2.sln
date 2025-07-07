@@ -1,8 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Q2", "quake2.vcproj", "{5B9925E7-B6D6-40CF-9981-AF5B10C47710}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Q2", "quake2.vcxproj", "{5B9925E7-B6D6-40CF-9981-AF5B10C47710}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Q2 SW", "ref_soft\ref_soft.vcproj", "{C8962C1F-320E-43AC-B023-DC8A08C51EED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Q2 SW", "ref_soft\ref_soft.vcxproj", "{C8962C1F-320E-43AC-B023-DC8A08C51EED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +21,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7BFCEAC-6156-44FD-B802-A7B5567924B7}
 	EndGlobalSection
 EndGlobal
