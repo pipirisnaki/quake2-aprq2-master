@@ -89,7 +89,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;wsock32.lib;zlib.lib;curllib.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>d:\games\quake2\aq2swde.exe</OutputFile>
+      <OutputFile>F:\proyectos\quake2-aprq2-master\ref_soft\debug\Q2 SW.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../win32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile />
@@ -138,8 +138,8 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>winmm.lib;wsock32.lib;zlib.lib;curllib.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>d:\games\quake2\aq2sw.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;wsock32.lib;zlib.lib;version.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\proyectos\quake2-aprq2-master\ref_soft\release\Q2 SW.exe</OutputFile>
       <SuppressStartupBanner>false</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../win32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile />
@@ -150,6 +150,7 @@
       <SubSystem>Windows</SubSystem>
       <ImportLibrary />
       <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
