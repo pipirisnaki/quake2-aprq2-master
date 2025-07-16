@@ -4,3 +4,6 @@
 
 /debug
 /.vs/quake2
+/release
+/ref_soft/debug
+/ref_soft/release
